@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+}
+
+nav {
+    margin: 1.5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.left-icons {
+    display: flex;
+}
+
+.left-icons>div {
+    display: flex;
+}
+
+.left-icons p {
+    margin: auto;
+    width: 50%;
+    padding: 1vh 0.5vh 1vh 1vh;
+
+}
+
+.left-icons>div img {
+    width: 2vh;
+    height: 2vh;
+    margin: auto;
+    width: 50%;
+
+}
+
+.left-icons>img:first-of-type {
+    padding: 1.5vh;
+    width: 5vh;
+    height: 5vh;
+}
+
+.right-icons {
+    display: flex;
+    margin-left: auto;
+}
+
+.avatar {
+    position: relative;
+}
+
+.avatar-container {
+    width: 7vh;
+    height: 7vh;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#green-dot {
+    position: absolute;
+    width: 1.5vh;
+    height: 1.5vh;
+    background-color: rgb(102, 240, 102);
+    border: 0.5vh solid white;
+    border-radius: 50%;
+    bottom: 0;
+    right: 0.5vh;
+
+}
+
+header {
+    background-color: #7550FE;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+header div {
+    width: 50vh;
+    height: 30vh;
+
+}
+
+header img {}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-main {
+    display: flex;
+    justify-content: center;
+}
+
+main>p {
+
+    margin-left: 20%;
+}
+
+.card {
+    width: 30vh;
+    height: 40vh;
+    border: 1px solid;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 30vh;
+    height: 15vh;
+    min-width: 30vh;
+    min-height: 15vh;
+}
+
+.card>div:first-of-type {
+    position: relative;
+    top: 0;
+}
+
+.card>div:last-of-type {
+    position: relative;
+    bottom: 0;
+}
+
+footer {
+    margin-top: 10vh;
+}
