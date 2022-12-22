@@ -76,15 +76,33 @@ header {
     display: flex;
     color: white;
     justify-content: center;
+    align-items: center;
 }
 
 header div {
     width: 50vh;
     height: 30vh;
-
 }
 
-header img {}
+header>div p:first-of-type {
+    font-size: 45px;
+}
+
+header>div p:last-of-type {
+    font-size: 20px;
+}
+
+header>div button {
+    padding: 2vh;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+header>div button:first-of-type {
+    background-color: lightgreen;
+    color: white;
+}
+
 
 section {
     display: flex;
